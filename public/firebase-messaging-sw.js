@@ -6,12 +6,14 @@ import { initializeApp } from "firebase/app";
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyDGHUlyBixnX2hmBJDEvtagKzNjpreI8j4",
-  authDomain: "react-push-notification-850c2.firebaseapp.com",
-  projectId: "react-push-notification-850c2",
-  storageBucket: "react-push-notification-850c2.appspot.com",
-  messagingSenderId: "177405328302",
-  appId: "1:177405328302:web:665312165b6c7d10c0e63f",
+  apiKey: 'api-key',
+  authDomain: 'project-id.firebaseapp.com',
+  databaseURL: 'https://project-id.firebaseio.com',
+  projectId: 'project-id',
+  storageBucket: 'project-id.appspot.com',
+  messagingSenderId: 'sender-id',
+  appId: 'app-id',
+  measurementId: 'G-measurement-id',
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
